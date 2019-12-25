@@ -72,19 +72,11 @@ public class PurchaseController {
         return purchaseRepo.sumHalfYear();
     }
 
-
-//    @GetMapping("/actions/most_buy")
-//    public void years_most_buy() {
-//        InfoDto purchaseInfo = purchaseRepo.mostBuy();
-//        return purchaseInfo;
-//    }
-
     @PutMapping("{id}")
     public PurchaseInfo update(
             @PathVariable("id") PurchaseInfo purchaseFromDb,
             @RequestBody PurchaseInfo purchaseInfo,
             BindingResult bindingResult
-//            @RequestBody PurchaseInfo message
     ) throws IOException {
         return purchaseInfoService.save(purchaseInfo, purchaseFromDb.getId());
     }
@@ -94,10 +86,5 @@ public class PurchaseController {
         purchaseInfoService.delete(purchaseInfo);
         return new HashMap<>();
     }
-
-   /* @GetMapping("/get")
-    public List<Country> get(){
-        return purchaseRepo.findAll();
-    }*/
 
 }

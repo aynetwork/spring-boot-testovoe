@@ -25,25 +25,25 @@ insert into purchase (name) values ('Наушники');
 insert into purchase (name) values ('Клавиатура');
 
 insert into purchase_info (age, amount, count, creation_date, lastname, name, purchase_id)
-values (1, 2, 16, now(), 'фамилия 1', 'name 1', 1);
+values (18, 314.1, 16, '2019-12-25 10:28:15.439378', 'фамилия 1', 'name 1', 1);
 
 
 insert into purchase_info (age, amount, count, creation_date, lastname, name, purchase_id)
-values (1, 2, 12, now(), 'фамилия 2', 'name 2', 2);
+values (18, 312.2, 12, '2019-09-11 10:28:15.439378', 'фамилия 2', 'name 2', 2);
 
 insert into purchase_info (age, amount, count, creation_date, lastname, name, purchase_id)
-values (1, 2, 1, now(), 'фамилия 3', 'name 3', 3);
-
-
-insert into purchase_info (age, amount, count, creation_date, lastname, name, purchase_id)
-values (1, 2, 32, now(), 'фамилия 2', 'name 2', 1);
+values (15, 201.1, 1, '2019-12-17 10:28:15.439378', 'фамилия 3', 'name 3', 3);
 
 
 insert into purchase_info (age, amount, count, creation_date, lastname, name, purchase_id)
-values (1, 2, 12, now(), 'фамилия 3', 'name 3', 2);
+values (21, 100, 32, '2019-12-19 10:28:15.439378', 'фамилия 2', 'name 2', 1);
+
 
 insert into purchase_info (age, amount, count, creation_date, lastname, name, purchase_id)
-values (1, 2, 5, now(), 'фамилия 4', 'name 4', 3);
+values (23, 301, 12, '2019-12-20 10:28:15.439378', 'фамилия 3', 'name 3', 2);
+
+insert into purchase_info (age, amount, count, creation_date, lastname, name, purchase_id)
+values (25, 506, 5, '2019-12-21 10:28:15.439378', 'фамилия 4', 'name 4', 3);
 
 
 

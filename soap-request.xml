@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:setPurchaseInfoRequest>
+            <gs:name>Test name</gs:name>
+            <gs:lastname>Test lastname</gs:lastname>
+            <gs:age>1</gs:age>
+            <gs:count>1</gs:count>
+            <gs:amount>1</gs:amount>
+            <gs:purchase>Телевизор</gs:purchase>
+        </gs:setPurchaseInfoRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
